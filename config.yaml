@@ -768,7 +768,7 @@ display:
   #   all:     Show every tool call with a short preview (default)
   #   verbose: Full args, results, and debug logs (same as /verbose)
   # Toggle at runtime with /verbose in the CLI
-  tool_progress: all
+  tool_progress: new
 
   # Gateway-only natural mid-turn assistant updates.
   # When true, completed assistant status messages are sent as separate chat
