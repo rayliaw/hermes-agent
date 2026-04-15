@@ -101,13 +101,13 @@ model:
 # Use a cheaper model for short/simple turns while keeping your main model for
 # more complex requests. Disabled by default.
 #
-# smart_model_routing:
-#   enabled: true
-#   max_simple_chars: 160
-#   max_simple_words: 28
-#   cheap_model:
-#     provider: openrouter
-#     model: google/gemini-2.5-flash
+smart_model_routing:
+  enabled: true
+  max_simple_chars: 160
+  max_simple_words: 28
+  cheap_model:
+    provider: custom
+    model: gpt-5.4-mini
 
 # =============================================================================
 # Git Worktree Isolation
